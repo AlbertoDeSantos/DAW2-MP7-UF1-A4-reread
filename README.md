@@ -35,6 +35,8 @@ mysqli_connect_errno
 mysqli_connect_error
 mysqli_set_charset
 die
+exit
+PHP_EOL
 ```
 
 **Ejemplo de conexión (`connection.php`):**
@@ -91,7 +93,6 @@ mysqli_query
 mysqli_num_rows
 mysqli_fetch_array
 mysqli_fetch_all
-PHP_EOL
 ```
 **Ejemplo de ejecución de query:**
 

@@ -652,7 +652,7 @@ header('Location: ../view/login.html')
 
 **La actividad 1, 2 y 4 se han de desarrollar en una rama nueva llamada `filtros`**
 
-**La actividad 3 se han de desarrollar en una rama nueva llamada `session`**
+**La actividad 3 y 5 se han de desarrollar en una rama nueva llamada `session`**
 
 **Actividad 1.** En zona.admin.php recoger libros (título, descripción y autor) de la BD y mostrarlos por pantalla usando foreach.
 
@@ -669,3 +669,5 @@ foreach ($libros as $libro) {
 **Actividad 4.** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país.
 
 ![form1](https://github.com/dannylarrea/reread-php/blob/master/BackupRandom/form.png)
+
+**Actividad 5.** En index.php, ebooks.php y libros.php se ha añadir un enlace `Iniciar sesión` que provoque una redirección a login.html.

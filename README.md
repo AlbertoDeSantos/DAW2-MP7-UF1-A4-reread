@@ -668,6 +668,6 @@ foreach ($libros as $libro) {
 
 **Actividad 4.** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país.
 
-![form1](https://github.com/dannylarrea/reread-php/blob/master/BackupRandom/form.png)
+![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_1.png)
 
 **Actividad 5.** En index.php, ebooks.php y libros.php se ha añadir un enlace `Iniciar sesión` que provoque una redirección a login.html.

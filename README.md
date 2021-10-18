@@ -647,3 +647,24 @@ header('Location: ../view/login.html')
 ```
 
 > **Dentro del proyecto reread establecer una página de administración de la web, así como el mantenimiento de la sesión del usuario y logout.**
+
+
+**La actividad 1, 2 y 4 se han de desarrollar en una rama nueva llamada `filtros`**
+
+**La actividad 3 se han de desarrollar en una rama nueva llamada `session`**
+
+**Actividad 1.** En zona.admin.php recoger libros (título, descripción y autor) de la BD y mostrarlos por pantalla usando foreach.
+
+```php
+foreach ($libros as $libro) {
+    //code...
+}
+```
+
+**Actividad 2.** En zona.admin.php se ha de poder filtrar los libros que se muestran por título de libro.
+
+**Actividad 3.** Haz los cambios respectivos en login.proc.php y zona.admin.php para que la aplicación muestre `Hola Test` (nombre) en lugar de `Hola test@test.com` (email).
+
+**Actividad 4.** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país.
+
+![form1](https://github.com/dannylarrea/reread-php/blob/master/BackupRandom/form.png)

@@ -650,9 +650,9 @@ header('Location: ../view/login.html')
 
 ## Actividades
 
-**La actividad 1, 2, 4 y 5 se han de desarrollar en una rama nueva llamada `filtros`**
+**La actividad 1, 2, 4 y 5 se han de desarrollar en una rama nueva llamada `filtros`, creada a partir de `main`**
 
-**La actividad 3 y 6 se han de desarrollar en una rama nueva llamada `session`**
+**La actividad 3 y 6 se han de desarrollar en una rama nueva llamada `session`, creada a partir de `main`**
 
 **Actividad 1.** En zona.admin.php recoger libros (título, descripción y autor) de la BD y mostrarlos por pantalla usando foreach.
 

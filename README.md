@@ -648,6 +648,7 @@ header('Location: ../view/login.html')
 
 > **Dentro del proyecto reread establecer una página de administración de la web, así como el mantenimiento de la sesión del usuario y logout.**
 
+## Actividades
 
 **La actividad 1, 2 y 4 se han de desarrollar en una rama nueva llamada `filtros`**
 

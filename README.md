@@ -81,7 +81,6 @@ if ($conn->connect_errno) {
 
 # Ejecución de sentencias SQL
 
-Por cada uno de los siguientes elementos se ha de explicar para qué sirve y, si el elemento procede, se ha de indicar que parámetro/s de entrada utiliza y que valores se devuelven.
 
 ```php
 empty
@@ -118,8 +117,6 @@ if (!empty($result) && mysqli_num_rows($result) > 0) {
 > **Establecer en los ficheros index.php, ebooks.php y libros.php del proyecto reread el código para mostrar los libros Top ventas.**
 
 # Mantenimiento del estado (crear sesión)
-
-Por cada uno de los siguientes elementos se ha de explicar para qué sirve y, si el elemento procede, se ha de indicar que parámetro/s de entrada utiliza y que valores se devuelven.
 
 ```php
 $_REQUEST
@@ -556,8 +553,6 @@ mysqli_free_result($user);
 > **Dentro del proyecto reread establecer el proceso de login (front-end y backend), así como la creación de la sesión del usuario.**
 
 # Mantenimiento del estado y destrucción (recuperar sesión y logout)
-
-Por cada uno de los siguientes elementos se ha de explicar para qué sirve y, si el elemento procede, se ha de indicar que parámetro/s de entrada utiliza y que valores se devuelven.
 
 ```php
 session_start

@@ -25,8 +25,6 @@ reread
 
 # Establecimiento de conexiones
 
-Por cada uno de los siguientes elementos se ha de explicar para qué sirve y, si el elemento procede, se ha de indicar que parámetro/s de entrada utiliza y que valores se devuelven.
-
 
 ```php
 echo

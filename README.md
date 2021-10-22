@@ -647,7 +647,7 @@ header('Location: ../view/login.html')
 
 **La actividad 3 y 6 se han de desarrollar en una rama nueva llamada `session`, creada a partir de `main`**
 
-**Actividad 1.** En zona.admin.php recoger libros (título, descripción y autor) de la BD y mostrarlos por pantalla usando foreach.
+**Actividad 1. (`filtros`)** En zona.admin.php recoger libros (título, descripción y autor) de la BD y mostrarlos por pantalla usando foreach.
 
 ```php
 foreach ($libros as $libro) {
@@ -655,14 +655,14 @@ foreach ($libros as $libro) {
 }
 ```
 
-**Actividad 2.** En zona.admin.php se ha de poder filtrar los libros que se muestran por título de libro.
+**Actividad 2. (`filtros`)** En zona.admin.php se ha de poder filtrar los libros que se muestran por título de libro.
 
-**Actividad 3.** Haz los cambios respectivos en login.proc.php y zona.admin.php para que la aplicación muestre `Hola Test` (nombre) en lugar de `Hola test@test.com` (email).
+**Actividad 3. (`session`)** Haz los cambios respectivos en login.proc.php y zona.admin.php para que la aplicación muestre `Hola Test` (nombre) en lugar de `Hola test@test.com` (email).
 
-**Actividad 4.** En ebooks.php se han de mostrar las imágenes de los libros recuperadas mediante una consulta en la base de datos.
+**Actividad 4. (`filtros`)** En ebooks.php se han de mostrar las imágenes de los libros recuperadas mediante una consulta en la base de datos.
 
-**Actividad 5.** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país.
+**Actividad 5. (`filtros`)** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país (los valores de paises los ha de sacar de la base de datos!).
 
 ![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_1.png)
 
-**Actividad 6.** En index.php, ebooks.php y libros.php se ha añadir un enlace `Iniciar sesión` que provoque una redirección a login.html.
+**Actividad 6. (`session`)** En index.php, ebooks.php y libros.php se ha añadir un enlace `Iniciar sesión` que provoque una redirección a login.html.

@@ -75,7 +75,7 @@ if ($conn->connect_errno) {
 ?>
 ```
 
-> **Establecer la conexión en el proyecto reread.**
+> **Establecer la conexión en el proyecto reread.** :rotating_light:
 
 # Ejecución de sentencias SQL
 
@@ -112,7 +112,7 @@ if (!empty($result) && mysqli_num_rows($result) > 0) {
 ?>
 ```
 
-> **Establecer en los ficheros index.php, ebooks.php y libros.php del proyecto reread el código para mostrar los libros Top ventas.**
+> **Establecer en los ficheros index.php, ebooks.php y libros.php del proyecto reread el código para mostrar los libros Top ventas.** :rotating_light:
 
 # Mantenimiento del estado (crear sesión)
 
@@ -548,7 +548,7 @@ if (mysqli_num_rows($user) == 1) {
 
 mysqli_free_result($user);
 ```
-> **Dentro del proyecto reread establecer el proceso de login (front-end y backend), así como la creación de la sesión del usuario.**
+> **Dentro del proyecto reread establecer el proceso de login (front-end y backend), así como la creación de la sesión del usuario.** :rotating_light:
 
 # Mantenimiento del estado y destrucción (recuperar sesión y logout)
 
@@ -639,7 +639,7 @@ header('Location: ../view/login.html')
 ?>
 ```
 
-> **Dentro del proyecto reread establecer una página de administración de la web, así como el mantenimiento de la sesión del usuario y logout.**
+> **Dentro del proyecto reread establecer una página de administración de la web, así como el mantenimiento de la sesión del usuario y logout.** :rotating_light:
 
 ## Actividades
 

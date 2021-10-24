@@ -643,9 +643,9 @@ header('Location: ../view/login.html')
 
 ## Actividades
 
-**La actividad 1, 2, 4 y 5 se han de desarrollar en una rama nueva llamada `filtros`, creada a partir de `main`**
+* **La actividad 1, 2, 4 y 5 se han de desarrollar en una rama nueva llamada `filtros`, creada a partir de `main`**
 
-**La actividad 3 y 6 se han de desarrollar en una rama nueva llamada `session`, creada a partir de `main`**
+* **La actividad 3 y 6 se han de desarrollar en una rama nueva llamada `session`, creada a partir de `main`**
 
 **Actividad 1. (`filtros`)** En zona.admin.php recoger libros (título, descripción y autor) de la BD y mostrarlos por pantalla usando foreach.
 
@@ -661,7 +661,7 @@ foreach ($libros as $libro) {
 
 **Actividad 4. (`filtros`)** En ebooks.php se han de mostrar las imágenes de los libros recuperadas mediante una consulta en la base de datos.
 
-**Actividad 5. (`filtros`)** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país (los valores de paises los ha de sacar de la base de datos!).
+**Actividad 5. (`filtros`)** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país (**los valores del campo país se han de sacar de la base de datos**).
 
 ![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_1.png)
 

@@ -671,6 +671,8 @@ foreach ($libros as $libro) {
 
 ![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_2.png)
 
-**Actividad 8. (rama `session`)** En login.html añadir a la validación JS anterior que:
-* si algún campo no está informado este pasará a tener su propiedad CSS `campo.style.borderColor= "red"`
-* sino, se quedará con su color por defecto `#4CAF50`
+> Nota: usar innerHTML para incrustar el mensaje en el bloque `<div id="mensaje"></div>`
+
+**Actividad 8. (rama `session`)** Añadir a la validación JS anterior (actividad 7) la siguiente lógica:
+* campo no informado (= no relleno) pasará a tener su propiedad *color de borde* igual a rojo: `campo.style.borderColor= "red"`
+* campo informado se quedará con su color por defecto: `#4CAF50`

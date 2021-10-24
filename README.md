@@ -671,7 +671,7 @@ foreach ($libros as $libro) {
 
 ![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_2.png)
 
-> Nota: usar innerHTML para incrustar el mensaje en el bloque `<div id="mensaje"></div>`
+> Nota: usar innerHTML para incrustar el mensaje de error en el bloque `<div id="mensaje"></div>` del fichero login.html
 
 **Actividad 8. (rama `session`)** Añadir a la validación JS anterior (actividad 7) la siguiente lógica:
 * campo no informado (= no relleno) pasará a tener su propiedad *color de borde* igual a rojo: `campo.style.borderColor= "red"`

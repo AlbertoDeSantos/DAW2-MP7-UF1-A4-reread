@@ -676,3 +676,5 @@ foreach ($libros as $libro) {
 **Actividad 8. (rama `session`)** Añadir a la validación JS anterior (actividad 7) la siguiente lógica:
 * campo no informado (= no relleno) pasará a tener su propiedad *color de borde* igual a rojo: `campo.style.borderColor= "red"`
 * campo informado se quedará con su color por defecto: `#4CAF50`
+
+![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_3.png)

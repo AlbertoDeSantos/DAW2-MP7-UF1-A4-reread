@@ -669,7 +669,11 @@ foreach ($libros as $libro) {
 
 **Actividad 7. (rama `session`)** En login.html añadir una validación JS tal que:
 
-![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_2.png)
+![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_4.png)
+
+![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_5.png)
+
+![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_6.png)
 
 > Nota: usar innerHTML para incrustar el mensaje de error en el bloque `<div id="mensaje"></div>` del fichero login.html
 

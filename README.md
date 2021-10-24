@@ -645,7 +645,7 @@ header('Location: ../view/login.html')
 
 * **La actividad 1, 2, 4 y 5 se han de desarrollar en una rama nueva llamada `filtros`, creada a partir de `main`**
 
-* **La actividad 3, 6 y 7 se han de desarrollar en una rama nueva llamada `session`, creada a partir de `main`**
+* **La actividad 3, 6, 7 y 8 se han de desarrollar en una rama nueva llamada `session`, creada a partir de `main`**
 
 **Actividad 1. (`filtros`)** En zona.admin.php recoger libros (título, descripción y autor) de la BD y mostrarlos por pantalla usando foreach.
 
@@ -670,3 +670,7 @@ foreach ($libros as $libro) {
 **Actividad 7. (rama `session`)** En login.html añadir una validación JS tal que:
 
 ![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_2.png)
+
+**Actividad 8. (rama `session`)** En login.html añadir a la validación JS anterior que:
+* si algún campo no está informado este pasará a tener su propiedad CSS `campo.style.borderColor= "red"`
+* sino, se quedará con su color por defecto `#4CAF50`

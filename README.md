@@ -645,7 +645,7 @@ header('Location: ../view/login.html')
 
 * **La actividad 1, 2, 4 y 5 se han de desarrollar en una rama nueva llamada `filtros`, creada a partir de `main`**
 
-* **La actividad 3 y 6 se han de desarrollar en una rama nueva llamada `session`, creada a partir de `main`**
+* **La actividad 3, 6 y 7 se han de desarrollar en una rama nueva llamada `session`, creada a partir de `main`**
 
 **Actividad 1. (`filtros`)** En zona.admin.php recoger libros (título, descripción y autor) de la BD y mostrarlos por pantalla usando foreach.
 
@@ -655,14 +655,18 @@ foreach ($libros as $libro) {
 }
 ```
 
-**Actividad 2. (`filtros`)** En zona.admin.php se ha de poder filtrar los libros que se muestran por título de libro.
+**Actividad 2. (rama `filtros`)** En zona.admin.php se ha de poder filtrar los libros que se muestran por título de libro.
 
-**Actividad 3. (`session`)** Haz los cambios respectivos en login.proc.php y zona.admin.php para que la aplicación muestre `Hola Test` (nombre) en lugar de `Hola test@test.com` (email).
+**Actividad 3. (rama `session`)** Haz los cambios respectivos en login.proc.php y zona.admin.php para que la aplicación muestre `Hola Test` (nombre) en lugar de `Hola test@test.com` (email).
 
-**Actividad 4. (`filtros`)** En ebooks.php se han de mostrar las imágenes de los libros recuperadas mediante una consulta en la base de datos.
+**Actividad 4. (rama `filtros`)** En ebooks.php se han de mostrar las imágenes de los libros recuperadas mediante una consulta en la base de datos.
 
-**Actividad 5. (`filtros`)** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país (**los valores del campo país se han de sacar de la base de datos**).
+**Actividad 5. (rama `filtros`)** En ebooks.php se ha de poder filtrar libros (ebooks) por autor y país (**los valores del campo país se han de sacar de la base de datos**).
 
 ![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_1.png)
 
-**Actividad 6. (`session`)** En index.php, ebooks.php y libros.php se ha añadir un enlace `Iniciar sesión` que provoque una redirección a login.html.
+**Actividad 6. (rama `session`)** En index.php, ebooks.php y libros.php se ha añadir un enlace `Iniciar sesión` que provoque una redirección a login.html.
+
+**Actividad 7. (rama `session`)** En login.html añadir una validación JS tal que:
+
+![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_1.png)

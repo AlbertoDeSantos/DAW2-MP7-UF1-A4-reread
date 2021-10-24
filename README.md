@@ -669,4 +669,4 @@ foreach ($libros as $libro) {
 
 **Actividad 7. (rama `session`)** En login.html añadir una validación JS tal que:
 
-![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_1.png)
+![form1](https://github.com/dannylarrea/reread-to-php/blob/main/form_2.png)
